@@ -17,4 +17,37 @@ Improve the UI <br/>
 General QOL changes
 
 # Acknowledgements
-[Google Play Service Vision](compile 'com.google.android.gms:play-services-vision:11.0.+') <br/>
+In build.gardle file add:-
+repositories {
+     ..... 
+    maven { url "https://maven.google.com" }
+}
+
+dependencies {
+......
+compile 'com.google.android.gms:play-services-vision:11.0.+'
+....
+}
+
+In AndroidManifest file add Permissions:-
+
+<uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    
+     <application
+     ......
+     ......>
+     ...............
+     ................
+     <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="ocr" />
+            
+      </application>
+     
+
+
