@@ -18,15 +18,18 @@ General QOL changes
 
 # Acknowledgements
 In build.gardle file add:-
-repositories {
-     ..... 
-    maven { url "https://maven.google.com" }
+repositories {<br/>
+     .....<br/>
+    maven { url "https://maven.google.com" }<br/>
 }
 
-dependencies {
-......
+dependencies {<br/>
+......<br/>
+<br/>
 compile 'com.google.android.gms:play-services-vision:11.0.+'
-....
+<br/>
+....<br/>
+
 }
 
 In AndroidManifest file add Permissions:-
