@@ -8,7 +8,7 @@ letting applications make sense of signs, articles, flyers, pages of text, menus
  The Mobile Vision Text API gives Android developers a powerful and reliable OCR capability <br/>
  that works with most Android devices and won't increase the size of your app.or scan and pdf or any image<br/>
 
-<img src="assets/screenshot1.png" width="40%"><img src="assets/screenshot3.png" width="40%"><img src="assets/screenshot2.png" width="40%" hspace="20">
+<img src="assets/screenshot1.png" width="40%"><img src="assets/Screenshot3.png" width="40%"><img src="assets/screenshot2.png" width="40%" hspace="20">
 
 
 
