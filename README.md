@@ -1,5 +1,5 @@
 # OCR
-![OCR](assets/remindericon.png) <br/>
+![OCR](assets/icon.png) <br/>
 Text Recognition by Camera using Google Vision
 
 # Features
